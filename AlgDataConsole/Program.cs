@@ -34,7 +34,7 @@ namespace AlgDataConsole
 
         public static void Display(List<int> num, List<Guid> guid, List<double> db)
         {
-            using (StreamWriter sw = new StreamWriter(@"C:\workspace\FakeData.txt"))
+            using (StreamWriter sw = new StreamWriter(@"C:\workspace\FakeData.csv"))
             {
                 for (int i = 0; i < num.Count; i++)
                 {
